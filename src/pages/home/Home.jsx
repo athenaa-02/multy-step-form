@@ -1,5 +1,5 @@
 import "./Home.css"
-import Nav from "../../components/navigation/nav"
+import Nav from "../../components/navigation/Nav"
 import PersonalInfo from "../../components/personalInfo/personalInfo"
 import NextStepBtn from '../../components/buttons/nextStepBtn/NextStepBtn'
 
