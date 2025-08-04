@@ -1,7 +1,6 @@
 import "./Home.css"
 import Nav from "../../components/navigation/Nav"
 import PersonalInfo from "../../components/personalInfo/personalInfo"
-import NextStepBtn from '../../components/buttons/nextStepBtn/NextStepBtn'
 
 function Home() {
   return (
@@ -10,7 +9,6 @@ function Home() {
         <Nav></Nav>
         <aside className="side_component">
             <PersonalInfo></PersonalInfo>
-            <NextStepBtn></NextStepBtn>
 
         </aside>
     </section>

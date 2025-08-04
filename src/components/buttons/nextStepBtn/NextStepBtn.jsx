@@ -1,7 +1,10 @@
+import './NextStepBtn.css'
 
 function NextStepBtn() {
   return (
-    <div>NextStepBtn</div>
+    <button className="nextBtn">
+      Next Step
+    </button>
   )
 }
 
