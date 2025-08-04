@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+aside.navigation {
+  width: 274px;
+  height: 100%;
+  background-image: url("/nav_background.png");
+  background-repeat: no-repeat;
+  padding: 40px 0 0 32px;
+  border-radius: 10px;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  cursor: pointer;
+  gap: 16px;
+}
+
+div.circle {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  border: 1px solid white;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li div.step {
+  font-size: 12px;
+  font-weight: 400;
+  color: #abbcff;
+  margin-bottom: 4px;
+}
+
+li div.stepName {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+

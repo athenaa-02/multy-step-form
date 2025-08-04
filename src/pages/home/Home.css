@@ -1,0 +1,21 @@
+main{
+    background-color: #EFF5FF;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.bg_white{
+    width: 940px;
+    height: 600px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 16px;
+    display: flex;
+    gap: 100px;
+}
+aside.side_component{
+    padding: 40px 84px 16px 0;
+}
