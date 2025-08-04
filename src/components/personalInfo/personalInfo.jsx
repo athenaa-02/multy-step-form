@@ -1,4 +1,4 @@
-import Heading from "../heading/heading";
+import Heading from '../heading/Heading';
 
 function personalInfo() {
   return (
